@@ -1,0 +1,14 @@
+{
+  "name": "wasm-concepts-import-js-functions",
+  "version": "0.1.0",
+  "files": [
+    "wasm_concepts_import_js_functions_bg.wasm",
+    "wasm_concepts_import_js_functions.js",
+    "wasm_concepts_import_js_functions.d.ts"
+  ],
+  "module": "wasm_concepts_import_js_functions.js",
+  "types": "wasm_concepts_import_js_functions.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}

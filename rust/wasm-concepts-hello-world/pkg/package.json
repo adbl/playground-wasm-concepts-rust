@@ -1,0 +1,14 @@
+{
+  "name": "wasm-concepts-hello-world",
+  "version": "0.1.0",
+  "files": [
+    "wasm_concepts_hello_world_bg.wasm",
+    "wasm_concepts_hello_world.js",
+    "wasm_concepts_hello_world.d.ts"
+  ],
+  "module": "wasm_concepts_hello_world.js",
+  "types": "wasm_concepts_hello_world.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}

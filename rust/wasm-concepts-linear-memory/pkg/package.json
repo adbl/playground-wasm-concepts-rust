@@ -1,0 +1,14 @@
+{
+  "name": "wasm-concepts-linear-memory",
+  "version": "0.1.0",
+  "files": [
+    "wasm_concepts_linear_memory_bg.wasm",
+    "wasm_concepts_linear_memory.js",
+    "wasm_concepts_linear_memory.d.ts"
+  ],
+  "module": "wasm_concepts_linear_memory.js",
+  "types": "wasm_concepts_linear_memory.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
