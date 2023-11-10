@@ -1,5 +1,7 @@
 ---
 layout: "~/layouts/PlaygroundLayout.astro"
+github: adbl/playground-wasm-concepts-rust
+date: 2023-11-04
 ---
 
 Playing with the [Wasm by Example](https://wasmbyexample.dev) concepts.
