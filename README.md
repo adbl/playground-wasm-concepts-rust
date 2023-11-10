@@ -1,4 +1,4 @@
-Playground page: [src/pages/playground/template/index.mdx](src/pages/playground/template/index.mdx)
+Playground page: [src/pages/playground/wasm-concepts-rust/index.md](src/pages/playground/wasm-concepts-rust/index.md)
 
 ## Commands
 

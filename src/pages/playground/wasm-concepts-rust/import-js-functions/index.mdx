@@ -1,0 +1,24 @@
+---
+layout: "~/layouts/PlaygroundLayout.astro"
+---
+
+import Source from "../_Source.astro";
+import app from "./_app/app.astro";
+
+From [Wasm by Example - Importing Javascript Functions Into WebAssembly](https://wasmbyexample.dev/examples/importing-javascript-functions-into-webassembly/importing-javascript-functions-into-webassembly.rust.en-us.html).
+
+---
+
+Rust module:
+
+<Source
+  path="../../../../rust/wasm-concepts-import-js-functions/src/lib.rs"
+  lang="rs"
+/>
+
+TypeScript calling compiled wasm module:
+
+<Source path="./import-js-functions/_app/app.ts" lang="ts" />
+<app />
+
+Imported onto page, see browser console!

@@ -1,0 +1,24 @@
+---
+layout: "~/layouts/PlaygroundLayout.astro"
+---
+
+import Source from "../_Source.astro";
+import app from "./_app/app.astro";
+
+From [Wasm by Example - WebAssembly Linear Memory](https://wasmbyexample.dev/examples/webassembly-linear-memory/webassembly-linear-memory.rust.en-us.html)
+
+---
+
+Rust module:
+
+<Source
+  path="../../../../rust/wasm-concepts-linear-memory/src/lib.rs"
+  lang="rs"
+/>
+
+TypeScript calling compiled wasm module:
+
+<Source path="./linear-memory/_app/app.ts" lang="ts" />
+<app />
+
+Imported onto page, see browser console!

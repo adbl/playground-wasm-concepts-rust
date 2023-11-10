@@ -1,0 +1,21 @@
+---
+import { Code } from "astro:components";
+
+export interface Props {
+  path: string;
+  lang: string;
+}
+
+const source = import.meta.glob(
+  ["./**/*.{ts,tsx}", "../../../../rust/*/src/**.rs"],
+  {
+    as: "raw",
+    eager: true,
+  }
+);
+//console.log(Object.keys(source));
+
+const { path, lang } = Astro.props;
+---
+
+<Code code={source[path]} lang={lang as any} />

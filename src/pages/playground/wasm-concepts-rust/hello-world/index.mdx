@@ -1,0 +1,30 @@
+---
+layout: "~/layouts/PlaygroundLayout.astro"
+---
+
+import Source from "../_Source.astro";
+import app from "./_app/app.astro";
+
+From [Wasm by Example - Hello World](https://wasmbyexample.dev/examples/hello-world/hello-world.rust.en-us.html).
+
+---
+
+Rust wasm library `lib.rs`:
+
+<Source
+  path="../../../../rust/wasm-concepts-hello-world/src/lib.rs"
+  lang="rs"
+/>
+
+Script loading wasm, calling the function and updating the result:
+
+<Source path="./hello-world/_app/app.ts" lang="ts" />
+<app />
+
+HTML span for the result:
+
+```html
+addResult: <span id="add-result"></span>
+```
+
+Live example ➡️ addResult: <span id="add-result"></span>

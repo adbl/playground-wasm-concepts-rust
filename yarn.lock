@@ -4900,6 +4900,18 @@ vscode-uri@^3.0.8:
   resolved "https://registry.yarnpkg.com/vscode-uri/-/vscode-uri-3.0.8.tgz#1770938d3e72588659a172d0fd4642780083ff9f"
   integrity sha512-AyFQ0EVmsOZOlAnxoFOGOq1SQDWAB7C6aqMGS23svWAllfOaxbuFvcT8D1i8z3Gyn8fraVeZNNmN6e9bxxXkKw==
 
+"wasm-concepts-hello-world@link:./rust/wasm-concepts-hello-world/pkg":
+  version "0.0.0"
+  uid ""
+
+"wasm-concepts-import-js-functions@link:./rust/wasm-concepts-import-js-functions/pkg":
+  version "0.0.0"
+  uid ""
+
+"wasm-concepts-linear-memory@link:./rust/wasm-concepts-linear-memory/pkg":
+  version "0.0.0"
+  uid ""
+
 web-namespaces@^2.0.0:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/web-namespaces/-/web-namespaces-2.0.1.tgz#1010ff7c650eccb2592cebeeaf9a1b253fd40692"
