@@ -6,9 +6,9 @@ date: 2023-11-04
 
 Playing with the [Wasm by Example](https://wasmbyexample.dev) concepts.
 
-- [hello-world](hello-world)
-- [linear-memory](linear-memory)
-- [import-js-functions](import-js-functions)
+- [hello-world](/playground/wasm-concepts-rust/hello-world)
+- [linear-memory](/playground/wasm-concepts-rust/linear-memory)
+- [import-js-functions](/playground/wasm-concepts-rust/import-js-functions)
 
 ### Notes
 
